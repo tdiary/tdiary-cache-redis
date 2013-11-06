@@ -16,16 +16,6 @@ Or install it yourself as:
 
     $ gem install tdiary-cache-redis
 
-## Usage
-
-Add follow snipet to your tdiary.conf
-
-```ruby
-@io_class = IO::Default
-```
-
-If @io_class is defined by tdiary.conf, tDiary doesn't load default cache adapter of plain file.
-
 ## Contributing
 
 1. Fork it
