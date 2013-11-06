@@ -1,4 +1,4 @@
-# Tdiary::Cache::Redis
+# TDiary::Cache::Redis
 
 redis adapter for tDiary cache
 
