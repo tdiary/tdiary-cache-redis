@@ -1,16 +1,13 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'tdiary/cache/redis/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "tdiary-cache-redis"
-  spec.version       = Tdiary::Cache::Redis::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["SHIBATA Hiroshi"]
   spec.email         = ["shibata.hiroshi@gmail.com"]
   spec.summary       = %q{tDiary cache with redis}
   spec.description   = %q{tDiary cache with redis}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tdiary/tdiary-cache-redis"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
