@@ -1,6 +1,6 @@
 # Tdiary::Cache::Redis
 
-TODO: Write a gem description
+redis adapter for tDiary cache
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add follow snipet to your tdiary.conf
+
+```ruby
+@io_class = IO::Default
+```
+
+If @io_class is defined by tdiary.conf, tDiary doesn't load default cache adapter of plain file.
 
 ## Contributing
 
