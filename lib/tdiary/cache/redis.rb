@@ -83,7 +83,7 @@ module TDiary
 
 		def redis
 			@_client ||= if @tdiary.conf.user_name
-								 Redis::Namespace.new(@tdiary.conf.user_name.to_sym, Redis.new)
+								 Redis::Namespace.new(@tdiary.conf.user_name.to_sym, redis: Redis.new)
 							 else
 								 Redis.new
 							 end
